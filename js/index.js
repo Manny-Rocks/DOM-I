@@ -84,7 +84,7 @@ theTitle.textContent=siteContent['cta']['h1'];
 const btnC=document.querySelector('.cta .cta-text button');
 btnC.textContent=siteContent['cta']['button'];
 btnC.addEventListener('click', function(){
-  console.log("I was freaking clicked!!!")
+  console.log("I was freaking clicked, once I think!!!")
 });
 
 
@@ -122,3 +122,5 @@ contactP[2].textContent=siteContent['contact']['email'];
 
 const thatFooter=document.querySelector('footer p');
 thatFooter.textContent=siteContent['footer']['copyright'];
+
+
