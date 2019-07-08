@@ -54,15 +54,17 @@ navItems[2].textContent=siteContent['nav']['nav-item-3'];
 navItems[3].textContent=siteContent['nav']['nav-item-4'];
 navItems[4].textContent=siteContent['nav']['nav-item-5'];
 navItems[5].textContent=siteContent['nav']['nav-item-6'];
-// navItems[0].style.color="green";
-// navItems[1].style.color="green";
-// navItems[2].style.color="green";
-// navItems[3].style.color="green";
-// navItems[4].style.color="green";
-// navItems[5].style.color="green";
-for (let i = 0; i<navItems.length; i++){
-  navItems[4].style.color = "Orange";
-}
+navItems[0].style.color="red";
+navItems[1].style.color="orange";
+navItems[2].style.color="blue";
+navItems[3].style.color="purple";
+navItems[4].style.color="green";
+navItems[5].style.color="pink";
+
+//got stuck running a for loop through all the navitems.
+// for (let i = 0; i<navItems.length; i++){
+//   navItems[4].style.color = "lightskyblue";
+// }
 
 
 const theNav=document.querySelector('nav');
@@ -122,6 +124,6 @@ contactP[2].textContent=siteContent['contact']['email'];
 
 // 
 
-const thatFooter=document.querySelector('footer p');
-thatFooter.textContent=siteContent['footer']['copyright'];
+const Footr=document.querySelector('footer p');
+Footr.textContent=siteContent['footer']['copyright'];
 
